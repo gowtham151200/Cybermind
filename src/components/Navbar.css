@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  
+  
+  max-width: 1200px;
+}
+
+.navbar-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  
+  
+}
+
+.navbar-logo-li {
+  margin-right: 6px; /* space between logo and Home tab */
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+  color: #7e22ce;
+}
+
+.create-job-btn {
+  padding: 10px 20px;
+  background: linear-gradient(to right, #7e22ce, #9333ea);
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(128, 0, 255, 0.3);
+  transition: background 0.3s ease;
+}
+
+.create-job-btn:hover {
+  background: linear-gradient(to right, #6b21a8, #7e22ce);
+}
